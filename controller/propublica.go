@@ -26,13 +26,7 @@ func GetLegislators() {
 	}
 
 	fmt.Println(responseObject.Status)
-
-
-
-
-
-	
-
+	fmt.Println(responseObject.Copyright)
 }
 
 func PropublicaTest() {
