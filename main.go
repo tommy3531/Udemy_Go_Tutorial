@@ -16,9 +16,8 @@ func main() {
 	
 	// names := []string{"tom", "marler"}	
 	// test.Multiparas(names...)
-	// twittername := test.PrintTwitterName("Follow me on Twitter: @tommarler3")
-	// fmt.Println(twittername)
-	// test.FullName("Mike", "Bob", "franklin")
-	_, twitter, _ := test.DiscardValue()
-	fmt.Println(twitter)
+	twittername := test.PrintTwitterName("Follow me on Twitter: @tommarler3")
+	fmt.Println(twittername)
+	test.FullName("Mike", "Bob", "franklin")
+
 }
